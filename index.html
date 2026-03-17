@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Storage Activity</title>
+  <style>
+    body.light { background: #fff; color: #222; }
+    body.dark { background: #222; color: #fff; }
+    .theme-toggle { margin: 1em; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+  <h1>Web Storage Activity</h1>
+  <!-- Task 1: Login Form -->
+  <div id="auth-section">
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <button id="logout-btn" class="hidden">Logout</button>
+  </div>
+
+  <!-- Task 2: Theme Toggle -->
+  <button id="theme-toggle" class="theme-toggle">Toggle Theme</button>
+
+  <script src="main.js"></script>
+</body>
+</html>
